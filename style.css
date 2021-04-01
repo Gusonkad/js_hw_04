@@ -1,0 +1,40 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   border: 2px solid rgb(188, 131, 195);
+   max-width: 1440px;
+   min-width: 320px;
+   min-height: 600px;
+   justify-content: center;
+   margin: auto;
+}
+.container .task {
+   flex-direction: column;
+   max-width: 1400px;
+   max-height: 100%;
+   background: rgb(212, 203, 216);
+   margin: 10px;
+   padding: 20px;
+   font-size: 20px;
+   text-align: justify;
+   color: rgb(36, 14, 77);
+}
+.task p {
+   color: rgb(5, 5, 5);
+   font-size: 20px;
+   justify-content: center;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+p.task_content {
+   max-width: 650px;
+   max-height: auto;
+   font-size: 18px;
+   white-space: pre-wrap;
+   margin: auto;
+   color: rgb(96, 96, 102);
+   border: 2px solid white;
+   background: rgb(221, 221, 214);
+}
